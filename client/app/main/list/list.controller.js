@@ -16,10 +16,6 @@
     }
   }
 
-  angular.module('genApplyApp')
-    .component('list', {
-      templateUrl: 'app/main/list/list.html',
-      controller: ListController
-    });
+  angular.module('genApplyApp').controller('ListController', ListController);
 
 })();

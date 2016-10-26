@@ -8,10 +8,12 @@
           .text-danger.wrapper.text-center.ng-binding.ng-hide
           .list-group.list-group-sm.m-b-md
             .list-group-item
-              input.form-control.no-border.ng-pristine.ng-invalid.ng-invalid-required.ng-touched(type='text', placeholder='Email or username', ng-model='Signin.user.username', required='required', autofocus='true')
+              input.form-control.no-border.ng-pristine.ng-invalid.ng-invalid-required.ng-touched(type='text',
+              placeholder='Email or username', ng-model='Signin.user.username', required='required', autofocus='true')
             .list-group-item
-              input.form-control.no-border.ng-pristine.ng-untouched.ng-invalid.ng-invalid-required(type='password', placeholder='Password', ng-model='Signin.user.password', required='required')
+              input.form-control.no-border.ng-pristine.ng-untouched.ng-invalid.ng-invalid-required(type='password',
+              placeholder='Password', ng-model='Signin.user.password', required='required')
           button.btn.btn-lg.btn-primary.btn-block(type='submit') Log in
       br
       .wrapper-md.text-center
-        a.text-info(ui-sref='') Forgot password?
+        a.text-info(ui-sref='main.forgot') Forgot password?

@@ -10,7 +10,7 @@ angular.module('genApplyApp', [
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
-      .otherwise('/');
+      .otherwise('/main');
 
     $locationProvider.html5Mode(true);
   });
